@@ -1,3 +1,9 @@
+Reload the DB:
+--add env path
+psql -U user_name -d database_name -f "C:\Working\PersonalProject\hp-employee\sql\DBScript.sql"
+
+
+
 # SQL Homework - Employee Database: A Mystery in Two Parts
 
 ![sql.png](sql.png)
