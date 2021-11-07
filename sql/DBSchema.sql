@@ -162,9 +162,16 @@ ALTER TABLE ONLY public.employees
 -- Name: titles titles_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
 --
 
-ALTER TABLE ONLY public.titles
-    ADD CONSTRAINT titles_pkey PRIMARY KEY (id);
+ALTER TABLE ONLY public.dept_emp
+    ADD CONSTRAINT dept_emp_pkey PRIMARY KEY (id);
 
+
+ALTER TABLE ONLY public.dept_manager
+    ADD CONSTRAINT dept_manager_pkey PRIMARY KEY (id);
+	
+ALTER TABLE ONLY public.salaries
+    ADD CONSTRAINT salaries_pkey PRIMARY KEY (id);
+	
 
 --
 -- Name: dept_emp dept_fkey; Type: FK CONSTRAINT; Schema: public; Owner: postgres
