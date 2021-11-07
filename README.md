@@ -1,12 +1,12 @@
 Pull the repository from github
-..\sql\DBQuery.sql - to query data related to employees
-..\sql\DBSchema.sql - schema of the database
-..\sql\DBScript.sql - data and schema of the database. You can use this to restore the database
-..\sql\hp-employee-ERD.pgerd - the ERD exported from PostgreSQL
-..\sql\hp-employee-ERD.png - the screenshot of ERD
-..\config.py - to config database info to execute the project
-..\hpemployee.py - to handle database connection and execution and this is imported to the jupyter notebook to execute data analysis
-..\EmployeeSalaryAnalysis.ipynb - analyze employee data
+1. ..\sql\DBQuery.sql - to query data related to employees
+2. ..\sql\DBSchema.sql - schema of the database
+3. ..\sql\DBScript.sql - data and schema of the database. You can use this to restore the database
+4. ..\sql\hp-employee-ERD.pgerd - the ERD exported from PostgreSQL
+5. ..\sql\hp-employee-ERD.png - the screenshot of ERD
+6. ..\config.py - to config database info to execute the project
+7. ..\hpemployee.py - to handle database connection and execution and this is imported to the jupyter notebook to execute data analysis
+8. ..\EmployeeSalaryAnalysis.ipynb - analyze employee data
 
 Reload the DB:
 1. Add the path of psql execution file of postgres to environment path. This path normally is "C:\Program Files\PostgreSQL\14\bin". Guidelines to add environment path: https://www.java.com/en/download/help/path.html
